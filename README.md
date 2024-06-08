@@ -1,6 +1,6 @@
 # eClinica: Online Health Management System
 
-Welcome to eClinica, an Online Health Management System designed to streamline healthcare processes, enhance patient care, and facilitate efficient management of medical records. This web-based application is built using C#, ASP.NET Core, Vue.js, and MySQL, offering a robust and user-friendly solution for healthcare providers.
+Welcome to eClinica, an Online Health Management System designed to streamline healthcare processes, enhance patient care, and facilitate efficient management of medical records. This web-based application is built using C#, ASP.NET Core, Vue.js, and MSSQL, offering a robust and user-friendly solution for healthcare providers.
 
 ## Features
 
@@ -20,7 +20,7 @@ Welcome to eClinica, an Online Health Management System designed to streamline h
 
 - **Backend:** C#, ASP.NET Core
 - **Frontend:** Vue.js
-- **Database:** MySQL
+- **Database:** MSSQL
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ Welcome to eClinica, an Online Health Management System designed to streamline h
 
 2. Set up the database:
 
-   - Create a MySQL database and update the connection string in the `appsettings.json` file.
+   - Create an MSSQL database and update the connection string in the `appsettings.json` file.
 
    ```json
    "ConnectionStrings": {
