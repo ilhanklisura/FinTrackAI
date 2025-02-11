@@ -1,4 +1,4 @@
-# **FinTrackAI - Smart Expense Tracker with AI Insights** 💰📊
+# **FinTrackAI - Smart Expense Tracker & AI Insights** 💰📊
 
 ![FinTrackAI](https://your-project-banner-url.com)
 
