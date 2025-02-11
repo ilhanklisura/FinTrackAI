@@ -1,66 +1,121 @@
-# eClinica: Online Health Management System
+# **FinTrackAI - Smart Expense Tracker with AI Insights** 💰📊
 
-Welcome to eClinica, an Online Health Management System designed to streamline healthcare processes, enhance patient care, and facilitate efficient management of medical records. This web-based application is built using C#, ASP.NET Core, Vue.js, and MSSQL, offering a robust and user-friendly solution for healthcare providers.
+![FinTrackAI](https://your-project-banner-url.com)
 
-## Features
+## **🚀 About FinTrackAI**
+FinTrackAI is a **full-stack FinTech expense tracker** that helps users **manage their finances**, track **income & expenses**, and receive **AI-powered spending insights**. It supports **real-time notifications**, **cloud storage for receipts**, and works across **web and mobile (Flutter) platforms**.
 
-- **Patient Management:** Easily manage patient records, including personal information, medical history, and treatment plans.
-
-- **Appointment Scheduling:** Schedule and track appointments, ensuring a smooth workflow for healthcare professionals and patients.
-
-- **Electronic Health Records (EHR):** Maintain digital health records, enabling quick access to patient data, prescriptions, and test results.
-
-- **Billing and Invoicing:** Simplify the billing process with integrated invoicing features for healthcare services rendered.
-
-- **Prescription Management:** Generate and manage digital prescriptions, improving accuracy and accessibility.
-
-- **User Authentication and Authorization:** Ensure data security with user authentication and role-based authorization.
-
-## Technologies Used
-
-- **Backend:** C#, ASP.NET Core
-- **Frontend:** Vue.js
-- **Database:** MSSQL
-
-## Getting Started
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/ilhanklisura/eclinica.git
-   ```
-
-2. Set up the database:
-
-   - Create an MSSQL database and update the connection string in the `appsettings.json` file.
-
-   ```json
-   "ConnectionStrings": {
-     "DefaultConnection": "Server=<server>;Database=<database>;User=<user>;Password=<password>;"
-   }
-   ```
-
-3. Build and run the application:
-
-   ```bash
-   dotnet build
-   dotnet run
-   ```
-
-4. Access the application in your web browser at `http://localhost:5000`.
-
-## Contributing
-
-We welcome contributions from the community! If you'd like to contribute to eClinica, please follow our [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md).
-
-## Support
-
-For any issues or questions, please [open an issue](https://github.com/ilhanklisura/eclinica/issues) on GitHub.
+## **🌟 Features**
+✅ **User Authentication & RBAC** (JWT-based login, User & Admin roles)  
+✅ **Expense & Income Management** (CRUD operations)  
+✅ **AI-Powered Expense Insights** (OpenAI API / ML.NET integration)  
+✅ **Real-Time Notifications** (via SignalR)  
+✅ **Kanban-style Task Management** (Vue 3 Drag & Drop UI)  
+✅ **Cloud Storage for Receipts** (Azure Blob Storage)  
+✅ **Web & Mobile Sync** (REST API + Flutter App)  
+✅ **Role-Based Access Control (RBAC)**  
 
 ---
 
-Thank you for using eClinica! We hope it serves as a valuable tool in managing healthcare services effectively. If you have any suggestions or feedback, feel free to reach out.
+## **📦 Tech Stack**
+### **🔹 Backend: ASP.NET Core (C#) API**
+- **ASP.NET Core 8.0 Web API**
+- **Entity Framework Core (MSSQL Database)**
+- **JWT Authentication & Authorization**
+- **SignalR for Real-time Events**
+- **Azure Blob Storage for File Uploads**
+- **OpenAI API for AI Spending Insights**
+
+### **🔹 Frontend: Vue 3 + TypeScript**
+- **Vue 3 (Composition API, Pinia State Management)**
+- **Vite + TypeScript for Development**
+- **Axios for API Requests**
+- **TailwindCSS for UI Design**
+
+### **🔹 Mobile App: Flutter**
+- **Flutter + Riverpod (State Management)**
+- **Dio for HTTP Requests**
+- **Secure Storage for JWT Tokens**
+- **Firebase Push Notifications**
+
+---
+
+## **📂 Project Structure**
+
+```plaintext
+📦 FinTrackAI/
+ ┣ 📂 Backend (ASP.NET Core API)
+ ┃ ┣ 📂 Controllers/
+ ┃ ┣ 📂 Models/
+ ┃ ┣ 📂 Services/
+ ┃ ┣ 📂 Repositories/
+ ┃ ┣ 📂 SignalR/
+ ┃ ┗ 📜 Program.cs
+ ┣ 📂 Frontend (Vue 3)
+ ┃ ┣ 📂 components/
+ ┃ ┣ 📂 pages/
+ ┃ ┣ 📂 store/
+ ┃ ┗ 📜 main.ts
+ ┣ 📂 Mobile (Flutter)
+ ┃ ┣ 📂 screens/
+ ┃ ┣ 📂 models/
+ ┃ ┣ 📂 services/
+ ┃ ┗ 📜 main.dart
+```
+
+---
+
+## **⚡ Installation & Setup**
+
+### **1️⃣ Backend (ASP.NET Core API)**
+```sh
+cd Backend
+# Install dependencies
+dotnet restore
+# Run the API
+dotnet run
+```
+
+### **2️⃣ Frontend (Vue 3 + TypeScript)**
+```sh
+cd Frontend
+# Install dependencies
+npm install
+# Run the app
+npm run dev
+```
+
+### **3️⃣ Mobile App (Flutter)**
+```sh
+cd Mobile
+# Install dependencies
+flutter pub get
+# Run the app
+flutter run
+```
+
+---
+
+## **🌍 API Endpoints**
+
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| `POST` | `/api/auth/register` | Register new user |
+| `POST` | `/api/auth/login` | User login (JWT) |
+| `GET` | `/api/expenses` | Get all expenses |
+| `POST` | `/api/expenses` | Add new expense |
+| `GET` | `/api/income` | Get all income records |
+| `POST` | `/api/income` | Add new income |
+| `GET` | `/api/reports` | Get AI-based spending insights |
+| `GET` | `/api/notifications` | Get real-time budget alerts |
+
+---
+
+**📢 Want to contribute?** Fork the repo, make a pull request, and let’s build together! 🎯
+
+---
+
+## **📢 Contact & Support**
+📧 **Email:** [work@ilhanklisura.com](mailto:work@ilhanklisura.com)  
+💼 **LinkedIn:** [Check me out here!](https://linkedin.com/in/ilhanklisura/)
+
