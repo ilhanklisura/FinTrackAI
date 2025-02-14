@@ -1,7 +1,5 @@
 # **FinTrackAI - Smart Expense Tracker & AI Insights** 💰📊
 
-![FinTrackAI](https://your-project-banner-url.com)
-
 ## **🚀 About FinTrackAI**
 FinTrackAI is a **full-stack FinTech expense tracker** that helps users **manage their finances**, track **income & expenses**, and receive **AI-powered spending insights**. It supports **real-time notifications**, **cloud storage for receipts**, and works across **web and mobile (Flutter) platforms**.
 
